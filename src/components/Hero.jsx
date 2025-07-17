@@ -39,8 +39,6 @@ const Hero = () => {
                 start: 'top top',
                 end: 'bottom top',
                 scrub: true,
-                id: 'herid',
-                markers: true,
             }
         })
             .to('.right-leaf', { y: 200 }, 0)
