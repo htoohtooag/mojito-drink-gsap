@@ -1,12 +1,70 @@
-# React + Vite
+# 🥂 Valvet Pour - Cocktail Experience Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant, scroll-animated cocktail bar website built with modern frontend tools — blending smooth GSAP animations, responsive Tailwind UI, and fast-loading performance.
 
-Currently, two official plugins are available:
+![Preview](./public/readme/preivew.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![React](https://img.shields.io/badge/React-19.1.0-blue?logo=react)
+![GSAP](https://img.shields.io/badge/GSAP-3.13.0-green?logo=greensock)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.11-blue?logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-7.0.4-purple?logo=vite)
+
+---
+
+## 📸 Demo Link (Click and view live)
+
+👉 [Live Demo](https://mojito-drink.vercel.app/)
+
+---
+
+
+## ✨ Features
+
+- 🔠 **SplitText Animations**  
+  Create impactful text reveals using GSAP’s SplitText for dynamic intros and section highlights.
+
+- 📜 **ScrollTrigger Effects**  
+  Power scroll-based animations and timeline control with GSAP’s ScrollTrigger.
+
+- 🌄 **Parallax Scrolling**  
+  Add immersive depth with smooth parallax effects that respond to user scroll.
+
+- 📌 **Pinned Sections**  
+  Lock sections in view while animating content for engaging scroll experiences.
+
+- 🎞️ **Scroll-Synced Video Playback**  
+  Sync video progress with scroll position for cinematic storytelling.
+
+- 🖼️ **Image Masking Effects**  
+  Use scroll-triggered pins and masks for visually striking image transitions.
+
+- 🖱️ **Custom Carousel**  
+  Build a fully customized carousel with multiple navigation options and animated slides.
+
+- 🧵 **Seamless Timeline Animations**  
+  Craft smooth animation timelines that span across multiple sections.
+
+- 📱 **Responsive Design**  
+  Ensure fluid UI and adaptive GSAP animations across all screen sizes.
+
+- 🛡️ **Performance & Security Optimizations**  
+  Enhanced video delivery, efficient scroll handling, and secure frontend logic.
+  
+----------
+
+## 🛠️ Installation
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/valvet-pour.git
+
+# 2. Install dependencies
+cd valvet-pour
+npm install
+
+# 3. Run locally
+npm run dev
